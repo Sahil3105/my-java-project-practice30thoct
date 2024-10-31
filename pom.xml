@@ -32,7 +32,7 @@
               <configuration>
                   <archive>
                       <manifest>
-                          <mainClass>com.example.YourMainClass</mainClass> <!-- Replace with your main class -->
+                          <mainClass>com.example.App</mainClass> <!-- Replace with your actual main class -->
                       </manifest>
                   </archive>
               </configuration>
