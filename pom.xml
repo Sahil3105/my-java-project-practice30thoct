@@ -7,6 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>my-java-project</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+      <maven.compiler.source>1.8</maven.compiler.source> <!-- Change to 11, 17, etc., if needed -->
+      <maven.compiler.target>1.8</maven.compiler.target> <!-- Change to 11, 17, etc., if needed -->
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
